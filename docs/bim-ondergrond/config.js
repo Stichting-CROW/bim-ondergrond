@@ -11,5 +11,5 @@ var respecConfig = {
     },
   ],
   github: "https://github.com/Stichting-CROW/bim-ondergrond",
-  license: "undefined",
+  license: "cc-by",
 };
