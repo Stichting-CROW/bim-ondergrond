@@ -9,7 +9,7 @@ De informatie over de ondergrond wordt geproduceerd en beheerd door verschillend
 
 1. **Werkversies**
 
-   Werkversies worden continu gepubliceerd op `https://docs.crow.nl/{{repository-korte-naam}}/{{document-korte-naam}} (logboek op [auto-publish]).
+   Werkversies worden continu gepubliceerd op `https://docs.crow.nl/bim-ondergrond/framework (logboek op [auto-publish]).
 
 2. **Referentieversies**
 
