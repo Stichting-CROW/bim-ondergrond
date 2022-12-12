@@ -11,7 +11,7 @@ Lees mee met het [Architectuur Framework](https://docs.crow.nl/bim-ondergrond/ar
 
 1. **Werkversies**
 
-   Werkversies worden continu gepubliceerd op `https://docs.crow.nl/bim-ondergrond/framework (logboek op [auto-publish]).
+   Werkversies worden continu gepubliceerd op https://docs.crow.nl/bim-ondergrond/framework (logboek op [auto-publish]).
 
 2. **Referentieversies**
 
