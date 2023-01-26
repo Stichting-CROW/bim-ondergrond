@@ -1,7 +1,7 @@
 var respecConfig = {
   // => https://github.com/stichting-crow/respec/wiki
   specStatus: "DRAFT",
-  shortName: "bim-ondergrond/bim-ondergrond",
+  shortName: "bim-ondergrond/architectuurframework",
   specType: "technische documentatie", // vrije tekst, kleine letter
   imprint: "crow",
   editors: [
