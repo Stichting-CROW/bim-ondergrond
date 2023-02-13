@@ -25,7 +25,7 @@ Met alle maatschappelijke opgaven als energietransitie, klimaat adaptatie, diver
 Vanuit bovenstaande context komt het Ontwikkelteam OT5 van de CityDeal Openbare Ruimte tot de vraag om "datastandaarden te verbinden". Het probleem is breed gedefinieerd, het betreft niet een of meerdere afgebakende use cases met een duidelijk werkproces, enkelvoudige informatiebehoefte, bekende informatiebronnen en applicaties, maar juist het hele samenspel van actoren en werkprocessen in de stedelijke openbare ruimte en infrastructuur die allemaal gebruik maken van de datastandaarden. Problemen van de datastandaarden, van de bestaande datasets, van de werkprocessen en van de systemen lopen door elkaar heen. Het kan in het geval van de datastandaarden gaan over de inhoudelijke aansluiting van de standaarden op elkaar, de technische aansluiting, de gebruikte talen en uitwisselformaten, de interpretatie door de gebruikers en systemen en nog veel meer. Waarbij iedere partij in het stedelijke gebied zelf bepaalt welke informatie wordt opgeslagen, en in welke standaard dat wordt uitgedrukt. Dat leidt tot het soort toepassingsvragen die in onderstaand voorbeeld zijn uitgelicht.
 
 <aside class="note" title="Standaarden als puzzelstukjes">
-“Een gemeente die informatie vastlegt over een stroomkabel bij een lichtmast, gebruikt daarvoor IMBOR. De daarnaast liggende stroomkabel is door een netbeheerder vvastgelegd volgens IMKL. Als we een integrale kaart maken met daarop de objecten in de ondergrond, zien we bij de ene kabel heel andere informatie als bij de andere. Dit leidt tot verwarring bij de gebruikers van de informatie”<br>
+“Een gemeente die informatie vastlegt over een stroomkabel bij een lichtmast, gebruikt daarvoor IMBOR. De daarnaast liggende stroomkabel is door een netbeheerder vvastgelegd volgens IMKL. Als we een integrale kaart maken met daarop de objecten in de ondergrond, zien we bij de ene kabel heel andere informatie dan bij de andere. Dit leidt tot verwarring bij de gebruikers van de informatie”<br>
 <br>
 “In IMGeo staat een andere definitie van een boom dan in IMBOR, maar het model vertelt me semantisch dat ze hetzelfde zijn, wat moet ik nu aanhouden?” <br>
 <br>
@@ -50,7 +50,7 @@ De standaarden moeten waarschijnlijk verder worden uitgebreid om de volledige in
 
 
 ## Doel document
-Dit document beschrijft de use-case, inhoudelijke en technische uitgangspunten voor standaarden, toepassingsprofielen en uitwisselafspraken om de ondergrond goed in beeld te brengen. Met dit document geven we betrokken partijen (binnen en buiten de Citydeal) inzicht over een aanpak om data-standaarden over de ondergrond met elkaar te verbinden zodat deze in samenhang toegepast kunnen worden. Dit plan geeft uiteindelijk input aan de volgende fase die binnen het programma BORius zal worden opgepakt.
+Dit document beschrijft use-cases, inhoudelijke en technische uitgangspunten voor standaarden, toepassingsprofielen en uitwisselafspraken om de ondergrond goed in beeld te brengen. Met dit document geven we betrokken partijen (binnen en buiten de Citydeal) inzicht over een aanpak om data-standaarden over de ondergrond met elkaar te verbinden zodat deze in samenhang toegepast kunnen worden. Dit plan geeft uiteindelijk input aan de volgende fase die binnen het programma BORius zal worden opgepakt.
 
 ## Aanpak
 Het probleem is breed gedefinieerd, het betreft niet een of meerdere afgebakende use cases met een duidelijk werkproces, enkelvoudige informatiebehoefte, bekende informatiebronnen en applicaties, maar juist het hele samenspel van actoren en werkprocessen in de stedelijke openbare ruimte en infrastructuur die allemaal gebruik maken van de datastandaarden. Daarom wordt gewerkt met een onderzoekende aanpak met de volgende stappen:
@@ -61,7 +61,7 @@ Het probleem is breed gedefinieerd, het betreft niet een of meerdere afgebakende
 <li>Bestaande datasets actueel, betrouwbaar en compleet zijn</li>
 <li>Bestaande datasets kunnen worden gepubliceerd voor toepassing in meerdere applicaties</li>
 <li>Bestaande applicaties kunnen werken met data, die op de nieuwe manier gemodelleerd en gepubliceerd is</li>
-<li>De overlap tussen datasets duidelijk wordt, zodat afgesproken kan worden wie de bronhouder is van welk deel van de informatie</li></li></ul>
+<li>De overlap tussen datasets duidelijk wordt, zodat afgesproken kan worden wie de bronhouder is van welk deel van de informatie</li></li></ul></ul>
 
 Dit resulteert in een voorstel waarin de datastandaarden beter op elkaar afgestemd zijn. Het vervolg (buiten scope van dit project) zal zijn om de wijzigingen op te nemen in de actuele versies van de standaarden, en een werkwijze af te spreken waarbij deze datastandaarden in samenhang beheerd kunnen worden, zodat de relaties actueel blijven bij updates. 
 
@@ -70,15 +70,15 @@ Dit resulteert in een voorstel waarin de datastandaarden beter op elkaar afgeste
 
 Dit document beschrijft de volgende zaken: 
 
-**2. Scope** Beschrijft de inhoudelijke scope van het probleem en de gezochte oplossingsrichtingen
+**2. Scope** beschrijft de scope van het probleem en de gezochte oplossingsrichtingen.
 
-**3. Use case** Bij elke [=use case=] staat een weergave van het probleem, de stakeholders, het werkproces, de informatiebehoefte, de gebruikte systemen en de gewenste oplossingsrichtingen per use case.
+**3. Use case** beschrijft bij elke [=use case=] staat een weergave van het probleem, de stakeholders, het werkproces, de informatiebehoefte, de gebruikte systemen en de gewenste oplossingsrichtingen per use case.
 
-**4. Omgevingsanalyse** De omgevingsanalyse verkent op hoofdlijnen welke partijen er 'gebruiker', 'leverancier' en 'afnemer' zijn van informatie over de ondergrond.
+**4. Technische uitgangspunten** beschrijft de technische uitgangspunten en eisen aan de informatiemodellen en andere datastandaarden die gebruikt worden in de boven- en ondergrondse openbare ruimte.
 
-**5. Raakvlakanalyse** De raakvlakanalyse beschijft welke wetgeving, standaarden of informatiemodellen, databronnen en niet-commerciële applicaties er in de IST-situatie aanwezig zijn.
+**5. Oplossingsrichtingen** beschrijft de technische oplossingsrichtingen die zijn uitgewerkt voor beproeving in de praktijk van de use cases.
 
-**6. Oplossingsrichtingen** De oplossingsrichtingen beschrijven uitgevoerde pilots en bieden een afweging tussen oplossingsrichtingen voor de SOLL-situatie.
+**6. Praktijktoets** beschrijft uitgevoerde praktijkproeven en beoordeelt de praktische toepasbaarheid van de geboden oplossing
 
 
-**7. Beheer** In Beheer worden randvoorwaarden beschreven voor de manier waarop de oplossingsrichtingen worden uitgewerkt samen met beheerders van standaarden en in interactie met gebruikers. 
+**7. Aanbevelingen** In Aanbevelingen wordt een roadmap voor ontwikkeling van de datastandaarden in samenhang gegeven en worden randvoorwaarden beschreven voor de manier waarop de oplossingsrichtingen worden uitgewerkt samen met beheerders van standaarden en in interactie met gebruikers. 

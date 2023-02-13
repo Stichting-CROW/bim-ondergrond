@@ -16,12 +16,17 @@
 Probleem beschrijving, wat is echt het probleem. Wat moet het gaan verhelpen (opbreken in stukjes)
 
 
-### Stakeholders
+### Omgevingsanalyse
 Stakeholders van de use case > overzicht van wie wil en moet er wat mee.
 
 <img src="./h/media/partijen.png" alt="Visualisatie van de partijen die betrokken zijn bij beheer en gebruik van de informatie in een stedelijk gebied: Landelijke voorzieningen, Beheerorganisaties, Projectorganisaties van opdrachtgever, Opdrachtnemers en hun toeleveranciersketen">
 <figcaption>De partijen die betrokken zijn bij beheer en gebruik van de informatie in een stedelijk gebied</caption>
 </figure>
+
+
+### Raakvlakanalyse
+
+De raakvlakanalyse beschijft welke wetgeving, standaarden of informatiemodellen, databronnen en niet-commerciële applicaties er in de IST-situatie aanwezig zijn.
 
 ### Procesanalyse
 Procesanalyse: het werkproces, rollen en taken van de gebruikers

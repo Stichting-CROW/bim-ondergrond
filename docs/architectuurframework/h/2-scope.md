@@ -1,7 +1,18 @@
 # Scope
 
 ## Inleiding 
-Dit hoofdstuk beschrijft de inhoudelijke scope van het probleem en de gezochte oplossingsrichtingen
+Dit hoofdstuk beschrijft de scope van het probleem en de gezochte oplossingsrichtingen
+
+## Standaarden 
+
+
+## Informatie
+
+
+
+
+
+
 
 
 
