@@ -78,7 +78,7 @@ Dit document beschrijft de volgende zaken:
 
 **5. Oplossingsrichtingen** beschrijft de technische oplossingsrichtingen die zijn uitgewerkt voor beproeving in de praktijk van de use cases.
 
-**6. Praktijktoets** beschrijft uitgevoerde praktijkproeven en beoordeelt de praktische toepasbaarheid van de geboden oplossing
+**6. Praktijktoets** beschrijft uitgevoerde praktijkproeven en beoordeelt de praktische toepasbaarheid van de geboden oplossing.
 
 
 **7. Aanbevelingen** In Aanbevelingen wordt een roadmap voor ontwikkeling van de datastandaarden in samenhang gegeven en worden randvoorwaarden beschreven voor de manier waarop de oplossingsrichtingen worden uitgewerkt samen met beheerders van standaarden en in interactie met gebruikers. 

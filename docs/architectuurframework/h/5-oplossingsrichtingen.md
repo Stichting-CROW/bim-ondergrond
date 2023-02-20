@@ -29,6 +29,5 @@ Oplossingen
 <li>Rapportage in ReSpec
 </ol>
 
-### Praktijkbeproeving
 
-De werkgroep onderzoekt of het voorstel helpt bij het beter op orde krijgen van informatie
+
