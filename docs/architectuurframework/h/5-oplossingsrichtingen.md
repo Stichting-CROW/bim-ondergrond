@@ -7,7 +7,7 @@ Oplossingen
 ### IST
 
 <ol>
-<li>GWSW bronbestanden
+<li><a href="https://github.com/Stichting-CROW/bim-ondergrond/tree/main/data/gwsw-bron">GWSW Bronbestanden</a>
 <li>Beknopte use case beschrijving maken van situatie die afstemming tussen IMBOR en GWSW vereist
 </ol>
 
