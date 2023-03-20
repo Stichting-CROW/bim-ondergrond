@@ -22,7 +22,7 @@ Use Case 1: In samenhang bevragen van data om het ondergrondse ruimtegebruik in 
 
 ### Data
 
-* Rioleringsgegevens gestructureerd volgens GWSW (uit Kikker?)
+* Rioleringsgegevens gestructureerd volgens GWSW (uit specialistisch pakket, of ook uit Gisib?)
 * BOR gegevens gestructureerd volgens IMBR (uit Gisib?)
 
 ## Doelstelling
