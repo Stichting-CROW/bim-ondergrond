@@ -72,7 +72,7 @@ Dit document beschrijft de volgende zaken:
 
 **2. Scope** beschrijft de scope van het probleem en de gezochte oplossingsrichtingen.
 
-**3. Use case** beschrijft bij elke [=use case=] staat een weergave van het probleem, de stakeholders, het werkproces, de informatiebehoefte, de gebruikte systemen en de gewenste oplossingsrichtingen per use case.
+**3. Use case** beschrijft bij elke [=use case=] een weergave van het probleem, de stakeholders, het werkproces, de informatiebehoefte, de gebruikte systemen en de gewenste oplossingsrichtingen per use case.
 
 **4. Technische uitgangspunten** beschrijft de technische uitgangspunten en eisen aan de informatiemodellen en andere datastandaarden die gebruikt worden in de boven- en ondergrondse openbare ruimte.
 

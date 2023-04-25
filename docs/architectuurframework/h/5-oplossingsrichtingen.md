@@ -1,6 +1,18 @@
 # Oplossingsrichtingen
 
-Oplossingen
+## Vragen aan experts
+
+Om een representatieve dataset te kunnen behandelen staan er nog enkele vragen op m.b.t. deze use case:
+
+<ul>
+<li>Om welke systemen gaat het precies?
+<li>Welke Objecttypen gaat het om (e.g. Leiding, Put, Boom, Kabel, Lichtmast, Ondergrondse container, ...)?
+<ul><li>Wat is een (selectieve) subset hiervan om het idee goed aan te kunnen tonen?</li></ul>
+<li>Is hier dan ook data voor beschikbaar (in het Wallengebied)?
+<ul><li>Is deze dan ook als RDF beschikbaar?
+<li>Zijn deze dan ook geclassificeerd naar GWSW en IMBOR</li></ul>
+<li> Welk systeem zou gebruikt kunnen worden voor de gecombineerde weergave? </li></ul>
+
 
 ## IMBOR-GWSW
 
