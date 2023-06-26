@@ -20,7 +20,6 @@ Met alle maatschappelijke opgaven als energietransitie, klimaat adaptatie, diver
 </figure> 
 
 
-
 ## Probleem
 Vanuit bovenstaande context komt het Ontwikkelteam OT5 van de CityDeal Openbare Ruimte tot deze vragen: 
 * Hoe ondersteunen de huidige datastandaarden een datagedreven integrale aanpak? Sturing op “vitale systemen” wordt steeds belangrijker. ("Is er een probleem?")
