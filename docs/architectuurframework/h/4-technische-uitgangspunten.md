@@ -4,7 +4,10 @@
 
 Dit hoofdstuk beschrijft de technische uitgangspunten en eisen aan de informatiemodellen en andere datastandaarden die gebruikt worden in de boven- en ondergrondse openbare ruimte.
 
-### Duurzame correcte mapping
+## NEN 2660-2
+Een basaal uitgangspunt is dat alle standaarden gemodelleerd worden volgens de [[NEN_2660_2_2022]]. Dit zorgt ervoor dat standaarden beter op elkaar kunnen worden aangesloten.
+
+## Duurzame correcte mapping
 
 Om data in samenhang te kunnen bevragen is het nodig dat verschillende standaarden/modellen op elkaar 'gemapt' worden. In dit specifieke geval gaat het om de IMBOR ontologie en de GWSW ontologie. Data over de ondergrond is namelijk geclassificeerd naar die twee ontologieën. En inhoudelijk vergelijking tussen de twee is relatief eenvoudig te maken. CROW en Rioned hebben dit ook reeds gedaan. Echter de methode hiervoor en de vastlegging hiervan is specifiek voor deze mapping. Hierdoor is het voor gebruikers en softwareleveranciers ondoenlijk om zich hier op te baseren.
 

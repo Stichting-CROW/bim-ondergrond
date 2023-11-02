@@ -11,9 +11,9 @@
 </figure>
 
 
-## Casus Wallengebied
+## Casus Wallengebied: principeprofielen ondergrondse netten
 
-We hebben de casus onderzocht van "principe-ontwerpen van toekomstige ondergronde infrastructuur in het Wallengebied" en daarbij het volgende gezien:
+We hebben de casus onderzocht van "principe-ontwerpen van toekomstige ondergronde infrastructuur in het Wallengebied" en daarbij de volgende use cases beschreven:
 * **Use case 1** De ontwerper wil de bestaande ligging van ondergrondse objecten en relevante bovengrondse objecten in kaart brengen;
 * **Use case 2** De ontwerper wil weten wat de eisen en parameters zijn bij het ontwerpen van een nieuwe situatie;
 * **Use case 3** De ontwerper wil weten welke ondergronds objecten aanwezig moeten zijn in de nieuwe situatie: input vanuit beleid en de planfase. 
@@ -34,11 +34,10 @@ In een gemeente kan het best zo zijn dat Assetmanager Riolering een applicatie v
 
 ## Use case 1: in kaart brengen bestaande situatie 
 
-Use Case 1: In samenhang bevragen van data om het bestaande ondergrondse ruimtegebruik in kaart te brengen.
 
 ### Doelstelling
 
-Het combineren van de gegevens gestructureerd via GWSW/IMBOR/IMKL/IMGeo, om een zo volledige mogelijk beeld van het ondergrondse ruimtegebruik te krijgen.
+De ontwerper wil de bestaande ligging van ondergrondse objecten en relevante bovengrondse objecten in kaart brengen. Het gaat om gegevens die gestructureerd zijn via <abbr title="Gemeentelijk Woordenboek Stedelijk Water">GWSW</abbr>, <abbr title="Informatiemodel Beheer Openbare Ruimte">IMBOR</abbr>, <abbr title="Informatiemodel Kabels en Leidingen">IMKL</abbr>, <abbr title="Informatiemodel Geografie">IMGEo</abbr>.
 
 ### Actoren
 
@@ -80,7 +79,7 @@ Met behulp van de verwerkte datasets en eventueel aangevuld met eigen metingen, 
 #### Bomen
 De ontwerper heeft de volgende input nodig vanuit de assetbeheerder / bestaande situatie:
 * Welke gegevens zijn nodig om bij het ontwerpen rekening te kunnen houden met  de bestaande bomen?
- Welke gegevens zijn bekend bij de beheerder van de openbare ruimte?
+* Welke gegevens zijn bekend bij de beheerder van de openbare ruimte?
 * Welke informatiemodellen worden gebruikt door deze beheerder?
 * Dekken deze informatiemodellen de informatiebehoefte af?
 
@@ -114,6 +113,26 @@ De ontwerper heeft de volgende input nodig vanuit de assetbeheerder / bestaande 
 
 ## Use Case 2: ontwerpuitgangspunten nieuwe situatie
 
+### Doelstelling
+De ontwerper wil weten wat de eisen en parameters zijn bij het ontwerpen van een nieuwe situatie, om te kunnen bepalen waar infrastructuur mag komen en hoeveel ruimte hiervoor gereserveerd moet worden.
+
+
+### Actoren
+
+#### Leveranciers
+*  Kennisinstituten die normen maken
+*  Assetmanagementorganisaties die eigen eisen maken
+
+#### Gebruikers
+
+* Ontwerpers binnen een integraal project van een gemeente
+
+### Beschrijving
+De ontwerper verzamelt alle eisen die in relevante normen en standaarden staan, en die van de asset management organisaties, en kan deze eisen gebruiken tijdens het bepalen van de ligging en de ruimtereservering van ondergrondse infra.
+
+#### Alternative scenario's
+De ontwerper moet soms zelf eisen afleiden uit documenten of achterhalen via de beheerder. 
+
 ### Data 
 #### Bomen
 De ontwerper heeft de volgende input nodig vanuit normen, standaarden met ontwerparameters en eisen
@@ -140,19 +159,40 @@ De ontwerper heeft de volgende input nodig vanuit normen, standaarden met ontwer
 
 
 
-
 #### Electriciteitskabels
 De ontwerper heeft de volgende input nodig vanuit normen, standaarden met ontwerparameters en eisen
 
-* Welke parameters/eisen zijn nodig om te weten wat de afmetingen moeten zijn van de electriciteitskabels en welke ligging deze kunnen hebben? Welke diepte mag de kabel hebben?
+*  waar mogen de kabels en leidingen liggen?
+*  welke parameters hebben deze kabels en leidingen:
+  *  hoe dik moeten ze zijn,
+  *  welke regels zijn er voor diepte van de kabels?
+  *  Welke schrikafstanden hebben de kabels ten opzichte van andere kabels, huizen en andere objecten?
+    *  Waar wijkt de huidige afstand af van die regels? > Leidt dit tot alternatieve "suboptimale maar geaccepteerde afwijkingen van de eisen en parameters?"
 * Is hier een datastandaard of informatiemodel voor? IMKL?
 * Dekt deze standaard de informatiebehoefte af?
-* Zijn er assets, waarbij een zekere afstand moet worden aangehouden tot electirciteitskabels?
-* Is hier een datastandaard of informatiemodel voor?
-* Dekt deze standaard de informatiebehoefte af?
-* Waar wijkt de huidige situatie af van de ontwerpparameters? Leidt dit tot alternatieve "suboptimale maar geaccepteerde afwijkingen van de eisen en parameters?"
+
 
 ## Use Case 3: In kaart brengen beleid en plannen 
+
+
+### Doelstelling
+De ontwerper wil weten welke ondergronds objecten aanwezig moeten zijn in de nieuwe situatie: input vanuit beleid en de planfase.
+
+### Actoren
+
+#### Leveranciers
+*  Asset managers
+*  Beleidsmakers 
+
+#### Gebruikers
+
+* Ontwerpers binnen een integraal project van een gemeente
+
+### Beschrijving
+De ontwerper verzamelt data van plannen en het beleid om te weten met welke scenario's qua inrichting van de openbare ruimte rekening gehouden moet worden.
+
+#### Alternative scenario's
+De ontwerper moet soms zelf plannen en scenario's afleiden uit documenten of achterhalen via de beheerder. 
 
 ### Data 
 #### Bomen
@@ -181,3 +221,46 @@ De ontwerper heeft de volgende input nodig vanuit beleidsdoelen en een strategis
 * Dekt deze standaard de informatiebehoefte af?
 
 
+## Use case 4 Opstellen principeprofielen
+
+### Doelstelling
+De ontwerper wil principeprofielen maken voor de inrichting van de ondergrond van een straat met aan één zijde gebouwen en aan de andere zijde een gracht en daarbij de afwegingen weergeven bij het ontwerp, zoals afwijking van de eisen over afstanden tot andere objecten omdat er niet voldoende ruimte is.
+
+### Actoren
+
+
+#### Gebruikers
+
+* Ontwerpers binnen een integraal project van een gemeente
+* Netbeheerders
+
+### Beschrijving
+De ontwerper maakt principeprofielen op basis van de benodigde infrastructuur en de beschikbare ruimte. In deze principeprofielen wordt de ruimtereservering geschetst voor objecten.
+
+
+### Data 
+De ontwerper genereert hier principeprofielen, dwarsdoorsnedes van een straat met de bijbehorende verificatie van eisen.
+
+## Use case 5 Afwegingskader
+
+
+### Doelstelling
+De ontwerper wil aangeven welke variabelen leiden tot welk principeprofiel, zodat er een onderbouwde afweging gemaakt kan worden voor het te kiezen principeprofiel bij elke straat.
+
+### Actoren
+
+#### Gebruikers
+
+* Ontwerpers binnen een integraal project van een gemeente
+* Netbeheerders
+
+### Beschrijving
+De ontwerper geeft bij elk principeprofiel aan, voor welk scenario deze geldt en onder welke omstandigheden dit profiel kan worden toegepast.
+
+
+### Data 
+De ontwerper genereert hier een afweginskader bij de principeprofielen en/of metadata.
+
+## Casus Amsterdam Kademuren
+
+Een zelfde soort use cases zou kunnen worden uitgewerkt voor het project "Amsterdam Kademuren ([externe link](https://experience.arcgis.com/experience/5f24774720454550ae8e2b93e909f564/page/Digitaal-dashboard/)).
