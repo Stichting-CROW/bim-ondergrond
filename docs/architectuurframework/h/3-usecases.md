@@ -1,4 +1,4 @@
-# Use Cases ontwerpproces
+# Use Cases 
 
 ## Definitie use case
 

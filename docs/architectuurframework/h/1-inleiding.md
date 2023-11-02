@@ -2,7 +2,7 @@
 
 
 ## Aanleiding
-CityDeal Openbare Ruimte heeft aan CROW gevraagd om te verkennen wat nodig is aan datastandaarden en afspraken om informatie over de ondergrond in de openbare ruimte van gemeenten beter te kunnen opstellen, beheren en publiceren. 
+De CityDeal Openbare Ruimte [externe link](https://www.citydealopenbareruimte.nl/default.aspx) heeft aan CROW gevraagd om te verkennen wat nodig is aan datastandaarden en afspraken om informatie over de ondergrond in de openbare ruimte van gemeenten beter te kunnen opstellen, beheren en publiceren. 
 Uitgangspunt hierbij is werken op basis van gebiedscasussen, liefst met een verschillende schaal, verschillende problematiek en met grote en middelgrote gemeenten. De CityDeal omarmt de ontwikkelingen van BORius waarbinnen dit projectvoorstel past en wil met haar bijdrage voor dit project een impuls geven aan BORius. Hiervoor werken de deelnemende gemeenten nauw samen om de bevindingen en resultaten in de gemeentelijke praktijk te beproeven en toe te passen.
 
 <figure>
@@ -20,13 +20,24 @@ Met alle maatschappelijke opgaven als energietransitie, klimaat adaptatie, diver
 </figure> 
 
 
-## Probleem
+### BORius
+Het Programma BORius is een initiatief van CROW en Stichting Rioned. De hoofddoelstelling: “In 2030 beschikken Assetmanagers en hun (keten)partners in de openbare ruimte en infrastructuur over een samenhangend stelsel objectstandaarden in de leefomgeving om de data over hun beheerde assets efficiënt op orde te houden en uit te wisselen”. De onderliggende doelstellingen van het programma zijn: 
+* Logische informatiestructuur: Beter samenhangende informatiemodellen voor alle beheerde assets in de Openbare Ruimte en Infrastructuur
+* Uitwisselproces: Op meer gestandaardiseerde manier data delen in de keten voor eenduidige interpretatie
+* Samenhang, adoptie, en beheer: Meer actuele standaarden en werkwijzen voor informatieuitwisseling in de keten
+
+## Vraagstelling vanuit CityDeal
 Vanuit bovenstaande context komt het Ontwikkelteam OT5 van de CityDeal Openbare Ruimte tot deze vragen: 
 * Hoe ondersteunen de huidige datastandaarden een datagedreven integrale aanpak? Sturing op “vitale systemen” wordt steeds belangrijker. ("Is er een probleem?")
 * In welke richting en hoe kunnen datastandaarden in samenhang ontwikkeld worden? Zijn er bijvoorbeeld aanpassingen nodig (bv over planning) aan de data-standaarden om de tactische ruimte tussen strategische afstemming (stedelijk programmeren) en uitvoering te overbruggen? Zijn de data-standaarden ook bruikbaar in het stedelijke ontwikkelproces van initiatief-plan-ontwerp-uitvoering of zijn het toch vooral instrumemten voor asset-beheer? ("Welke oplossingsrichtingen zijn er bij het probleem?)
 * Hoe belangrijk is het daarbij dat data-standaarden in samenhang worden doorontwikkeld (of hoe belangrijk is BORius voor het integraal werken). ("Lossen deze oplossingsrichtingen het probleem op?")
 
-Het probleem is breed gedefinieerd, het betreft niet een of meerdere afgebakende use cases met een duidelijk werkproces, enkelvoudige informatiebehoefte, bekende informatiebronnen en applicaties, maar juist het hele samenspel van actoren en werkprocessen in de stedelijke openbare ruimte en infrastructuur die allemaal gebruik maken van de datastandaarden. Problemen van de datastandaarden, van de bestaande datasets, van de werkprocessen en van de systemen lopen door elkaar heen. Het kan in het geval van de datastandaarden gaan over de inhoudelijke aansluiting van de standaarden op elkaar, de technische aansluiting, de gebruikte talen en uitwisselformaten, de interpretatie door de gebruikers en systemen en nog veel meer. Waarbij iedere partij in het stedelijke gebied zelf bepaalt welke informatie wordt opgeslagen, en in welke standaard dat wordt uitgedrukt. Dat leidt tot het soort toepassingsvragen die in onderstaand voorbeeld zijn uitgelicht.
+
+## Probleem
+De huidige werkwijze leidt tot fragmentatie in data, waarbij het in samenhang bevragen van de data een puzzel is. 
+Ook moet een databeheerder data naar verschillende bronnen sturen, en zelf de puzzel maken hoe deze bronnen met ongelijksoortige standaardenm
+
+In het onderstaande voorbeeld worden voorbeelden gegeven van dit probleem.
 
 <aside class="note" title="Standaarden als puzzelstukjes">
 “Een gemeente die informatie vastlegt over een stroomkabel bij een lichtmast, gebruikt daarvoor IMBOR. De daarnaast liggende stroomkabel is door een netbeheerder vvastgelegd volgens IMKL. Als we een integrale kaart maken met daarop de objecten in de ondergrond, zien we bij de ene kabel heel andere informatie dan bij de andere. Dit leidt tot verwarring bij de gebruikers van de informatie”<br>
@@ -47,7 +58,7 @@ Het probleem is breed gedefinieerd, het betreft niet een of meerdere afgebakende
 ##	Doel, nut en waarde
 
 ### Korte termijn
-Het korte termijn doel van dit architectuur framework is een oplossing voorstellen waarvandaan de standaarden op elkaar kunnen worden aangepast. Daarbij zal gaandeweg blijken, of de gebruikers geholpen kunnen worden om hun informatiebehoefte beter te definiëren en of zij de informatie beter van elkaar kunnen overnemen. Dat lost nog niet meteen het vraagstuk op, hoe partijen hun informatie beter actueel en compleet kunnen houden en dit voor elkaar kunnen ontsluiten.
+Het korte termijn doel van dit project is laten zien in een showcase, hoe het op elkaar aansluiten van standaarden kan helpen bij het gebruik van data over de openbare ruimte en infrastructuur. 
 
 ### Middellange termijn
 De standaarden moeten waarschijnlijk verder worden uitgebreid om de volledige informatiebehoefte te dekken, dit zal verder moeten worden uitgewerkt in het BORius programma. 
@@ -57,32 +68,20 @@ De standaarden moeten waarschijnlijk verder worden uitgebreid om de volledige in
 Dit document beschrijft use-cases, inhoudelijke en technische uitgangspunten voor standaarden, toepassingsprofielen en uitwisselafspraken om de ondergrond goed in beeld te brengen. Met dit document geven we betrokken partijen (binnen en buiten de Citydeal) inzicht over een aanpak om data-standaarden over de ondergrond met elkaar te verbinden zodat deze in samenhang toegepast kunnen worden. Dit plan geeft uiteindelijk input aan de volgende fase die binnen het programma BORius zal worden opgepakt.
 
 ## Aanpak
-Het probleem is breed gedefinieerd, het betreft niet een of meerdere afgebakende use cases met een duidelijk werkproces, enkelvoudige informatiebehoefte, bekende informatiebronnen en applicaties, maar juist het hele samenspel van actoren en werkprocessen in de stedelijke openbare ruimte en infrastructuur die allemaal gebruik maken van de datastandaarden. Daarom wordt gewerkt met een onderzoekende aanpak met de volgende stappen:
+In eerste instantie was een aanpak geformuleerd, waarbij met databeheerders zou worden samengewerkt bij het uitwerken van use cases. Gezien de beperkte beschikbaarheid van dergelijke professionals, die hard nodig zijn voor operationele taken, is besloten om CROW de beschikking te geven over datasets waarmee een showcase gemaakt kon worden. CROW heeft:
 
-<ul><li>Met een groep modelleurs die het datavraagstuk goed kennen, samenwerken en bepalen welke objecttypen als eerste in een proefuitwerking moeten komen. Het gaat om de mensen die in hun dagelijks werk de pijn voelen van ontbrekende data bij integrale gebiedsvraagstukken, zoals ontwerpers of gebiedsplanners en de informatiekundigen die hen hierbij ondersteunen.</li>
-<li>Proefuitwerkingen maken waarbij van één objecttype, bijvoorbeeld kademuren of kabels en leidingen, de datastandaarden op elkaar zijn afgestemd door het op dezelfde manier modelleren volgens de NEN 2660-2 en onderlinge verbanden leggen. Zie Figuur 3 Soorten informatie die op dezelfde manier gemodelleerd kunnen worden</li>
-<li>Een praktijktoets te doen met die vertegenwoordigers of data gebaseerd op de beide standaarden onderling uitgewisseld kunnen worden. Hieruit kan dan blijken of<ul>
-<li>Bestaande datasets actueel, betrouwbaar en compleet zijn</li>
-<li>Bestaande datasets kunnen worden gepubliceerd voor toepassing in meerdere applicaties</li>
-<li>Bestaande applicaties kunnen werken met data, die op de nieuwe manier gemodelleerd en gepubliceerd is</li>
-<li>De overlap tussen datasets duidelijk wordt, zodat afgesproken kan worden wie de bronhouder is van welk deel van de informatie</li></li></ul></ul>
+* Datasets getransformeerd naar linked data
+* Relaties gelegd tussen de gebruikte informatiemodellen 
+* Laten zien dat je door deze relaties queries kan uitvoeren over meerdere datasets
 
-Dit resulteert in een voorstel waarin de datastandaarden beter op elkaar afgestemd zijn. Het vervolg (buiten scope van dit project) zal zijn om de wijzigingen op te nemen in de actuele versies van de standaarden, en een werkwijze af te spreken waarbij deze datastandaarden in samenhang beheerd kunnen worden, zodat de relaties actueel blijven bij updates. 
 
 
 ## Leeswijzer
 
 Dit document beschrijft de volgende zaken: 
 
-**2. Scope** beschrijft de scope van het probleem en de gezochte oplossingsrichtingen.
-
-**3. Use case** beschrijft bij elke [=use case=] een weergave van het probleem, de stakeholders, het werkproces, de informatiebehoefte, de gebruikte systemen en de gewenste oplossingsrichtingen per use case.
+**3. Use case** beschrijft uses cases met een weergave van het probleem, de stakeholders, het werkproces en de informatiebehoefte. 
 
 **4. Technische uitgangspunten** beschrijft de technische uitgangspunten en eisen aan de informatiemodellen en andere datastandaarden die gebruikt worden in de boven- en ondergrondse openbare ruimte.
 
-**5. Oplossingsrichtingen** beschrijft de technische oplossingsrichtingen die zijn uitgewerkt voor beproeving in de praktijk van de use cases.
-
-**6. Praktijktoets** beschrijft uitgevoerde praktijkproeven en beoordeelt de praktische toepasbaarheid van de geboden oplossing.
-
-
-**7. Aanbevelingen** In Aanbevelingen wordt een roadmap voor ontwikkeling van de datastandaarden in samenhang gegeven en worden randvoorwaarden beschreven voor de manier waarop de oplossingsrichtingen worden uitgewerkt samen met beheerders van standaarden en in interactie met gebruikers. 
+**5. Aanbevelingen** In Aanbevelingen wordt een roadmap voor ontwikkeling van de datastandaarden in samenhang gegeven en worden randvoorwaarden beschreven voor de manier waarop de oplossingsrichtingen worden uitgewerkt samen met beheerders van standaarden en in interactie met gebruikers. 
