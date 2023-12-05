@@ -28,24 +28,24 @@ Deze datasets zijn niet open beschikbaar. Wel is er een screenshot gemaakt om ee
 Met behulp van [deze open source software](https://github.com/redmer/rdf-geopackage) zijn de Geopackages op een standaard manier omgezet naar RDF waar je vervolgens in kan zoeken met behulp van SPARQL-queries. 
 
 
-Met deze tool kan vanuit een GeoPackage zeer platte (generieke) linked data worden gegenereerd. Rijen uit featuretabellen worden geo:Features met arbitraire relaties en een geo:Geometry. Rijen uit niet-feature-tabellen worden geïnstantieerd met arbitraire eigenschappen.
+Met de genoemde software kan vanuit een GeoPackage zeer platte (generieke) linked data worden gegenereerd. Rijen uit featuretabellen worden geo:Features met arbitraire relaties en een geo:Geometry. Rijen uit niet-feature-tabellen worden geïnstantieerd met arbitraire eigenschappen.
 
 ## Cureren van de dataset
 Op de RDF zijn SPARQL-queries geschreven die de set omzet naar een ‘gecureerde’ graaf. Ofwel het handmatig verrijken van features en properites:
-*	Met IMBOR en GWSW classificaties 
-*	Met NEN2660-2 als ontologie 
+* Met IMBOR en GWSW classificaties 
+* Met NEN2660-2 als ontologie 
 
 
 ## Alignment tussen standaarden
 
-Vervolgens is ten behoeve van dit project een [proef-'alignment’]() gemaakt tussen de standaarden
+Vervolgens is ten behoeve van dit project een [proef-'alignment’](https://github.com/Stichting-CROW/bim-ondergrond/blob/main/code/alignment.ttl) gemaakt tussen de standaarden
 * Door dit extra model worden bijvoorbeeld de relaties tussen GWSW en IMBOR klassen geformaliseerd, maar ook tussen GWSW en IMBOR eigenschappen
 * Deze alignment is een eerste opzet, die wordt vanuit het IMBOR en GWSW project geformaliseerd.
 
 
 
 ## Resultaat
-Bovenstaande hebben we allemaal werkend, maar het moet nog ‘geschaald’ worden. Ofwel we hebben het nu voor een paar objecttypen en eigenschappen gedaan om te zien of het werk, maar we willen dit nog voor de hele representatie dataset doen. Dat is daarmee ook de volgende stap. 
+Bovenstaande hebben we allemaal werkend, maar het moet nog ‘geschaald’ worden. Ofwel we hebben het nu voor een paar objecttypen en eigenschappen gedaan om te zien of het werkt, maar we willen dit nog voor de hele representatie dataset doen. Dat is daarmee ook de volgende stap. 
 Na die stap kunnen we dus federatieve vragen stellen als: ‘geef me alles in dit gebied met een aanlegjaar na 1950’. We creeren dus volledig overzicht over de ‘silo's’ heen.
 
 
