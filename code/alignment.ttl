@@ -1,0 +1,49 @@
+@prefix rdf:                <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:               <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:                <http://www.w3.org/2002/07/owl#> .
+@prefix sh:                 <http://www.w3.org/ns/shacl#> .
+@prefix xsd:                <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:               <http://www.w3.org/2004/02/skos/core#> .
+@prefix dct:                <http://purl.org/dc/terms/> .
+@prefix imbor:              <https://data.crow.nl/imbor/def/> .
+@prefix imbor-term:         <https://data.crow.nl/imbor/term/> .
+@prefix imbor-domeinwaarde: <https://data.crow.nl/imbor/id/domeinwaarden/> .
+@prefix gwsw:               <http://data.gwsw.nl/1.5/totaal/> .
+@prefix void:               <http://rdfs.org/ns/void#> .
+@prefix align:              <http://knowledgeweb.semanticweb.org/heterogeneity/alignment#> .
+@prefix edoal:              <http://ns.inria.org/edoal/1.0/> .
+
+gwsw:
+        a                void:Dataset ;
+        void:feature    <http://www.w3.org/ns/formats/Turtle> ;
+        .
+
+imbor:
+        a               void:Dataset ;
+        void:feature    <http://www.w3.org/ns/formats/Turtle> ;
+        align:location  "file:ex_ont_imbor.ttl" ;
+        .
+
+:imbor_gwsw
+        a               void:Linkset ;
+        void:feature    <http://www.w3.org/ns/formats/Turtle> ;
+        owl:versionInfo "0.1"@nl ;
+        dct:title       "IMBOR en GWSW ontologie mapping"@nl ;
+        dct:description "Handmatige voorbeeld mapping van de twee kernmodellen o.b.v. expert judgement"@nl ;
+        dct:publisher   "Stichting CROW"@nl ;
+        dct:date        "2023-10-11"^^xsd:date;
+        void:target     imbor: ;
+        void:target     gwsw: ;
+        .
+
+gwsw:Begindatum 
+    owl:equivalentProperty
+imbor:534f07b8-9243-4848-a3d0-6ebeb321784c .
+
+gwsw:uri
+    owl:equivalentProperty
+imbor:5f430c8d-7503-4a69-9e2f-f0b6e6c7f54e .
+
+
+
+

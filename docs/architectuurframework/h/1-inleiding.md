@@ -74,6 +74,7 @@ In eerste instantie was een aanpak geformuleerd, waarbij met databeheerders zou 
 * Relaties gelegd tussen de gebruikte informatiemodellen 
 * Laten zien dat je door deze relaties queries kan uitvoeren over meerdere datasets
 
+Daarmee wordt getoont hoe handig het is, als datasets in linked data staan en de onderliggende informatiemodellen met elkaar verbonden zijn. 
 
 
 ## Leeswijzer
@@ -83,5 +84,7 @@ Dit document beschrijft de volgende zaken:
 **3. Use case** beschrijft uses cases met een weergave van het probleem, de stakeholders, het werkproces en de informatiebehoefte. 
 
 **4. Technische uitgangspunten** beschrijft de technische uitgangspunten en eisen aan de informatiemodellen en andere datastandaarden die gebruikt worden in de boven- en ondergrondse openbare ruimte.
+
+**5. Showcase** beschrijft de activiteiten die uitgevoerd zijn om te komen tot een showcase. 
 
 **5. Aanbevelingen** In Aanbevelingen wordt een roadmap voor ontwikkeling van de datastandaarden in samenhang gegeven en worden randvoorwaarden beschreven voor de manier waarop de oplossingsrichtingen worden uitgewerkt samen met beheerders van standaarden en in interactie met gebruikers. 
