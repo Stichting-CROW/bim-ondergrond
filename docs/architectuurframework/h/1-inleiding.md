@@ -35,7 +35,7 @@ Vanuit bovenstaande context komt het Ontwikkelteam OT5 van de CityDeal Openbare 
 
 ## Probleem
 De huidige werkwijze leidt tot fragmentatie in data, waarbij het in samenhang bevragen van de data een puzzel is. 
-Ook moet een databeheerder data naar verschillende bronnen sturen, en zelf de puzzel maken hoe deze bronnen met ongelijksoortige standaardenm
+Ook moet een databeheerder data naar verschillende bronnen sturen, en zelf de puzzel maken hoe deze bronnen met ongelijksoortige standaarden te voeden vanuit de eigen asset data.
 
 In het onderstaande voorbeeld worden voorbeelden gegeven van dit probleem.
 
@@ -68,7 +68,7 @@ De standaarden moeten waarschijnlijk verder worden uitgebreid om de volledige in
 Dit document beschrijft use-cases, inhoudelijke en technische uitgangspunten voor standaarden, toepassingsprofielen en uitwisselafspraken om de ondergrond goed in beeld te brengen. Met dit document geven we betrokken partijen (binnen en buiten de Citydeal) inzicht over een aanpak om data-standaarden over de ondergrond met elkaar te verbinden zodat deze in samenhang toegepast kunnen worden. Dit plan geeft uiteindelijk input aan de volgende fase die binnen het programma BORius zal worden opgepakt.
 
 ## Aanpak
-In eerste instantie was een aanpak geformuleerd, waarbij met databeheerders zou worden samengewerkt bij het uitwerken van use cases. Gezien de beperkte beschikbaarheid van dergelijke professionals, die hard nodig zijn voor operationele taken, is besloten om CROW de beschikking te geven over datasets waarmee een showcase gemaakt kon worden. CROW heeft:
+In eerste instantie was een aanpak geformuleerd, waarbij met databeheerders zou worden samengewerkt bij het uitwerken van [=use case=]s. Gezien de beperkte beschikbaarheid van dergelijke professionals, die hard nodig zijn voor operationele taken, is besloten om CROW de beschikking te geven over datasets waarmee een showcase gemaakt kon worden. CROW heeft:
 
 * Datasets getransformeerd naar linked data
 * Relaties gelegd tussen de gebruikte informatiemodellen 
@@ -81,10 +81,10 @@ Daarmee wordt getoont hoe handig het is, als datasets in linked data staan en de
 
 Dit document beschrijft de volgende zaken: 
 
-**3. Use case** beschrijft uses cases met een weergave van het probleem, de stakeholders, het werkproces en de informatiebehoefte. 
+**3. [=Use case=]** beschrijft uses cases met een weergave van het probleem, de stakeholders, het werkproces en de informatiebehoefte. 
 
 **4. Technische uitgangspunten** beschrijft de technische uitgangspunten en eisen aan de informatiemodellen en andere datastandaarden die gebruikt worden in de boven- en ondergrondse openbare ruimte.
 
 **5. Showcase** beschrijft de activiteiten die uitgevoerd zijn om te komen tot een showcase. 
 
-**5. Aanbevelingen** In Aanbevelingen wordt een roadmap voor ontwikkeling van de datastandaarden in samenhang gegeven en worden randvoorwaarden beschreven voor de manier waarop de oplossingsrichtingen worden uitgewerkt samen met beheerders van standaarden en in interactie met gebruikers. 
+**5. Conclusies en aanbevelingen** geeft de conclusies uit dit project een aanbevelingen voor het vervolg. 

@@ -11,6 +11,19 @@
 </figure>
 
 
+## Hoog over scenario 
+
+In een hoog over scenario valt een use van van het beheer en gebruik van asset data over rioleringen. 
+
+* Uitwisseling tussen twee systemen die de integratie van rioleringsgegevens vereist in een <abbr title="Beheer Openbare Ruimte">BOR</abbr>-systeem (het ene systeem is conform IMBOR ingedeeld, het andere systeem conform een interpretatie van de GWSW-ontologie)
+* Uitwisseling tussen twee systemen die de integratie van BOR-gegevens vereist in een rioleringssysteem (bijv. verhardingen, wadi's, meubilair) (het ene systeem is conform IMBOR ingedeeld, het andere systeem conform een interpretatie van de GWSW-ontologie)
+* GWSW-dataset uitwisselen vanuit een integraal beheersysteem dat conform IMBOR is ingedeeld (bijv. hoe kom je van IMBOR naar .orox)
+* IMBOR als standaard gebruiken voor vaste objectgegevens, maar daar GWSW-dynamische gegevens bij willen registreren
+* Gegevens van aannemer die volgens GWSW kan inspecteren/etc. opnemen in beheersysteem conform IMBOR
+
+In een gemeente kan het best zo zijn dat Assetmanager Riolering een applicatie voor Riolering gebruikt en andere Assetmanagers een integraal systeem. Die eerste Assetmanager moet dan ofwel data aan de anderen leveren voor het integrale beeld (situatie 1); ofwel data ontvangen van de anderen voor het verkrijgen van overzicht/bepaalde berekeningen (situatie 2).
+
+
 ## Casus Wallengebied: principeprofielen ondergrondse netten
 
 We hebben de casus onderzocht van "principe-ontwerpen van toekomstige ondergronde infrastructuur in het Wallengebied" en daarbij de volgende use cases beschreven:
@@ -20,15 +33,6 @@ We hebben de casus onderzocht van "principe-ontwerpen van toekomstige ondergrond
 * **Use case 4** De ontwerper wil principeprofielen maken voor de inrichting van de ondergrond van een straat met aan één zijde gebouwen en aan de andere zijde een gracht en daarbij de afwegingen weergeven bij het ontwerp, zoals afwijking van de eisen over afstanden tot andere objecten omdat er niet voldoende ruimte is.
 * **Use case 5** De ontwerper wil aangeven welke variabelen leiden tot welk principeprofiel, zodat er een onderbouwde afweging gemaakt kan worden voor het te kiezen principeprofiel bij elke straat.
 
-### Hoog over scenario riolering / bor
-
-* Uitwisseling tussen twee systemen die de integratie van rioleringsgegevens vereist in een <abbr title="Beheer Openbare Ruimte">BOR</abbr>-systeem (het ene systeem is conform IMBOR ingedeeld, het andere systeem conform een interpretatie van de GWSW-ontologie)
-* Uitwisseling tussen twee systemen die de integratie van BOR-gegevens vereist in een rioleringssysteem (bijv. verhardingen, wadi's, meubilair) (het ene systeem is conform IMBOR ingedeeld, het andere systeem conform een interpretatie van de GWSW-ontologie)
-* GWSW-dataset uitwisselen vanuit een integraal beheersysteem dat conform IMBOR is ingedeeld (bijv. hoe kom je van IMBOR naar .orox)
-* IMBOR als standaard gebruiken voor vaste objectgegevens, maar daar GWSW-dynamische gegevens bij willen registreren
-* Gegevens van aannemer die volgens GWSW kan inspecteren/etc. opnemen in beheersysteem conform IMBOR
-
-In een gemeente kan het best zo zijn dat Assetmanager Riolering een applicatie voor Riolering gebruikt en andere Assetmanagers een integraal systeem. Die eerste Assetmanager moet dan ofwel data aan de anderen leveren voor het integrale beeld (situatie 1); ofwel data ontvangen van de anderen voor het verkrijgen van overzicht/bepaalde berekeningen (situatie 2)
 
 
 
@@ -261,6 +265,3 @@ De ontwerper geeft bij elk principeprofiel aan, voor welk scenario deze geldt en
 ### Data 
 De ontwerper genereert hier een afweginskader bij de principeprofielen en/of metadata.
 
-## Casus Amsterdam Kademuren
-
-Een zelfde soort use cases zou kunnen worden uitgewerkt voor het project "Amsterdam Kademuren ([externe link](https://experience.arcgis.com/experience/5f24774720454550ae8e2b93e909f564/page/Digitaal-dashboard/)).
