@@ -41,4 +41,3 @@ URL: 		https://datasets.crow.nl/projecten/-/stories/Datastandaarden-in-samenhang
 
 De toegankelijkheid van de datastory is gegarandeerd tot 1 januari 2025, waarna deze in PDF-vorm beschikbaar blijft. Dit project markeert een belangrijk moment in het streven naar een coherente en gecombineerde benadering van datastandaarden, met potentieel verstrekkende implicaties voor stedelijk beheer en planning.
 
-
