@@ -24,9 +24,9 @@ De initiële stap omvatte het verzamelen van relevante datasets uit het Wallenge
 </figure> 
 
 ### Van Geodata naar NEN 2660-2
-Een sleutelelement in het project was de conversie van GIS-formaten naar RDF, wat de flexibiliteit van de datasets aanzienlijk vergrootte. Door middel van opensource software<a href="#footnote-1">[1]</a> werd deze conversie gerealiseerd, wat de weg vrijmaakte voor een gestructureerde en samenhangende dataomgeving.
+Een sleutelelement in het project was de conversie van GIS-formaten naar RDF, wat de flexibiliteit van de datasets aanzienlijk vergrootte. Door middel van opensource software<a href="#footnote-1">[1]</a> werd deze conversie gerealiseerd, wat de weg vrijmaakte voor een gestructureerde en samenhangende dataomgeving. 
 
-<p id="footnote-1">[1] Redmer van CROW heeft hiervoor [opensource software](https://github.com/redmer/rdf-geopackage) geschreven. Hiermee kan op een generieke manier een GeoPackage omgezet worden naar RDF. Met de genoemde software kan vanuit een GeoPackage zeer platte (generieke) linked data worden gegenereerd. Rijen uit featuretabellen worden geo:Features met arbitraire relaties en een geo:Geometry. Rijen uit niet-feature-tabellen worden geïnstantieerd met arbitraire eigenschappen.
+<p id="footnote-1">[1] Redmer van CROW heeft hiervoor <a href="https://github.com/redmer/rdf-geopackage">opensource software</a> geschreven. Hiermee kan op een generieke manier een GeoPackage omgezet worden naar RDF. Met de genoemde software kan vanuit een GeoPackage zeer platte (generieke) linked data worden gegenereerd. Met een extra conversie kan de data dan weer aansluiten op de gebruikte standaarden.
 
 ### Ontology Alignment
 Een innovatieve stap binnen het project was het uitlijnen van de verschillende ontologieën, een proces waarbij de relaties tussen diverse datamodellen werden gedefinieerd. Dit zorgde voor een uniforme interpretatie en integratie van de data.
