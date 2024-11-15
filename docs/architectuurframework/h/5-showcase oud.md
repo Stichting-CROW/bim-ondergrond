@@ -72,7 +72,7 @@ De aanpak van de showcase wordt in onderstaande afbeelding gevisualiseerd. Met d
 Het resultaat is moeilijk te omschrijven in woorden, vandaar dat dit geprobeerd is te vatten in een datastory. Deze story is online te raadplegen (zie bijlage) en vertelt het verhaal van wat er mogelijk is als data en datastandaarden in samenhang bevraagd kunnen worden
 
 URL: 		https://datasets.crow.nl/projecten/-/stories/Datastandaarden-in-samenhang 
-Email address:	snuffelaccountcrow@rix.33mail.com
+Email address:	demo@example.org
 Password:	Demo2023!
 
 Als je op de link klikt, krijg je eerst de mededeling dat er geen datastory te vinden is. Log je vervolgens in, dan zie je de datastory. Lees deze rustig door en zoom in-en uit en klik op de bijgevoegde kaarten voor ondersteuning van het verhaal.
